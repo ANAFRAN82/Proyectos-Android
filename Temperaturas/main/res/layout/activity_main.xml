@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="127dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="111dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:layout_marginBottom="30sp"
+            app:srcCompat="@drawable/temperatura" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30sp"
+            android:textStyle="italic"
+            android:layout_weight="1"
+            android:fontFamily="@font/kalambold"
+            android:text="@string/app_titulo"
+            android:textAlignment="center"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:startIconDrawable="@drawable/ic_temperatura">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/textTemperatura"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/app_temp"
+            android:inputType="number"
+            android:maxLength="30" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Spinner
+        android:id="@+id/SpTipoConversion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+
+        android:layout_marginBottom="20sp"
+        />
+
+    <ImageButton
+        android:id="@+id/button1"
+        android:layout_width="268dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:background="@drawable/mibotoncal"/>
+
+    <ImageButton
+        android:id="@+id/button2"
+        android:layout_width="133dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:background="@drawable/mibotonnuev" />
+
+    <ImageButton
+        android:id="@+id/button3"
+        android:layout_width="126dp"
+        android:layout_height="61dp"
+        android:layout_gravity="center"
+        android:background="@drawable/mibotonsal" />
+
+
+</LinearLayout>

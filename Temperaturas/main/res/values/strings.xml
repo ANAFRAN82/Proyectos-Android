@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Temperaturas</string>
+    <string name="app_titulo">TEMPERATURAS</string>
+    <string name="app_texto">Temperatura</string>
+    <string name="app_texto1">Tipo Conversion</string>
+    <string name="app_temp">Temperatura</string>
+
+
+</resources>
