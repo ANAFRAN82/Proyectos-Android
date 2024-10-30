@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Hamburguesas</string>
+    <string name="app_mensaje">EL NAUFRAGO</string>
+    <string name="app_tipohambur">Tipo Hamburguesa</string>
+    <string name="app_cantidad">Cantidad</string>
+<string name="app_pago">Tipo Pago</string>
+<string name="app_calcular">Calcular</string>
+    <string name="app_nuev">Nuevo</string>
+    <string name="app_salir">Salir</string>
+
+</resources>
