@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Aspirante Carrera</string>
+    <string name="app_titulo">"UNIVERSIDAD DE SONORA "</string>
+    <string name="app_nombre">Nombre Aspirante</string>
+    <string name="app_prom">Promedio Bachillerato</string>
+    <string name="app_TipoBachi">Tipo Bachillerato</string>
+</resources>

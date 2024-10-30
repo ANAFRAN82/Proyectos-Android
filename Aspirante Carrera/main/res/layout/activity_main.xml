@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="123dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="166dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:layout_marginBottom="30sp"
+            app:srcCompat="@drawable/carrera" />
+
+        <TextView
+            android:layout_width="232dp"
+            android:layout_height="31dp"
+            android:layout_marginBottom="30sp"
+            android:fontFamily="@font/delicious"
+            android:text="@string/app_titulo"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/EtNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:layout_marginBottom="30sp"
+        android:hint="@string/app_nombre" />
+
+    <EditText
+        android:id="@+id/EtPromedio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:layout_marginBottom="30sp"
+        android:hint="@string/app_prom" />
+
+    <Spinner
+        android:id="@+id/SpTipoBachiller"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:layout_marginBottom="30sp"
+        />
+
+    <Button
+        android:id="@+id/btImprimir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Imprimir"
+        android:layout_marginBottom="30sp"
+        />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30sp"
+        android:onClick="Salir"
+        android:text="Salir" />
+
+</LinearLayout>
