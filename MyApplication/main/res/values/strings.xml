@@ -1,6 +1,3 @@
 <resources>
     <string name="app_name">My Application</string>
-    <string name="app_mensaje">HOLA MUNDO! CREADO POR ANA</string>
-    <string name="app_autor2">ANA FRANCO</string>
-    <string name="app_dedicatoria2">PARA TI HERMANA</string>
 </resources>
