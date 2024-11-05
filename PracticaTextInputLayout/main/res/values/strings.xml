@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Practica TextInputLayout</string>
+    <string name="app_titulo">Colegiaturas TESJI</string>
+    <string name="app_nombre">Nombre</string>
+    <string name="app_promedio">Promedio</string>
+    <string name="app_contrase_a">Contraseña</string>
+</resources>
