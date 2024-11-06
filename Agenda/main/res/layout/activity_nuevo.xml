@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".NuevoActivity">
+
+    <EditText
+        android:id="@+id/txtNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="6dp"
+        android:hint="@string/hint_nombre"
+        android:inputType="text"
+        android:fontFamily="@font/kaushan"
+        android:textSize="22sp" />
+
+    <EditText
+        android:id="@+id/txtTelefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="6dp"
+        android:hint="@string/hint_telefono"
+        android:inputType="phone"
+        android:fontFamily="@font/kaushan"
+        android:textSize="22sp" />
+
+    <EditText
+        android:id="@+id/txtCorreoElectronico"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="6dp"
+        android:hint="@string/hint_correo_electronico"
+        android:inputType="textEmailAddress"
+        android:fontFamily="@font/kaushan"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/btnGuarda"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_guarda"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/deliciou"
+        android:textSize="22sp" />
+</LinearLayout>
